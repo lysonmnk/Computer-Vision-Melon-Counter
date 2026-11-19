@@ -1,0 +1,24 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Training runs and large weights
+runs/
+*.pt
+*.onnx
+!models/best.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+*.cache
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+Computer  Vision Melon Counter/
+
